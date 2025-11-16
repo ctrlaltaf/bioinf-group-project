@@ -1,0 +1,87 @@
+Sample,Chrom,Pos,Gene(s),ClinVar,Significance,Type,Consequence,HGVSc,HGVSp
+HG003_chr1,chr1,976215,PERM1,1320032,Pathogenic,SNV,Missense variant,NM_001291366.2:c.2330T>C,p.Val777Ala
+HG003_chr1,chr1,94008251,ABCA4,7888,"Pathogenic/likely pathogenic/pathogenic, low penetrance",SNV,Missense variant,NM_000350.3:c.5882G>A,p.Gly1961Glu
+HG003_chr1,chr1,89054646,GBP1,1320035,Likely pathogenic,Deletion,Intron variant,NM_002053.3:c.1665+30_1665+35delGTTTTT,-
+HG003_chr1,chr1,196831893,CFHR1,1343371,Likely pathogenic,SNV,Missense variant,NM_002113.3:c.887C>T,p.Ala296Val
+HG003_chr1,chr1,226737174,"ITPKB, LOC129932672",1705896,Likely pathogenic,Microsatellite,Inframe deletion,NM_002221.4:c.276_284delCAGCGGCAG,p.Ser93_Ser95del
+HG003_chr1,chr1,5864452,NPHP4,969225,Uncertain significance,SNV,"Missense variant, Non-coding transcript variant",NM_015102.5:c.3882G>T,p.Arg1294Ser
+HG003_chr1,chr1,12207235,TNFRSF1B,1048803,Uncertain significance,SNV,3' UTR variant,NM_001066.3:c.*215C>T,-
+HG003_chr1,chr1,13392000,PRAMEF17,2351057,Uncertain significance,SNV,Missense variant,NM_001099851.3:c.923A>G,p.Gln308Arg
+HG003_chr1,chr1,16587113,NBPF1,2250710,Uncertain significance,SNV,"Missense variant, Intron variant, No sequence alteration",NM_017940.6:c.715A>G,p.Thr239Ala
+HG003_chr1,chr1,20651801,"DDOST, PINK1-AS",295041,Uncertain significance,Microsatellite,"Non-coding transcript variant, 3' UTR variant",NM_005216.5:c.*574_*577delTAAA,-
+HG003_chr1,chr1,25817946,SELENON,297061,Uncertain significance,Deletion,3' UTR variant,NM_020451.3:c.*2236delC,-
+HG003_chr1,chr1,26697012,ARID1A,2918821,Uncertain significance,SNV,Missense variant,NM_006015.6:c.609C>A,p.His203Gln
+HG003_chr1,chr1,27372958,FCN3,992482,Uncertain significance,SNV,Intron variant,NM_003665.4:c.393+178T>A,-
+HG003_chr1,chr1,44806068,DYNLT4,3086584,Uncertain significance,SNV,Missense variant,NM_001013632.4:c.601T>C,p.Ser201Pro
+HG003_chr1,chr1,55052517,PCSK9,265928,Uncertain significance,Deletion,Intron variant,NM_174936.4:c.657+114delC,-
+HG003_chr1,chr1,55052614,PCSK9,265930,Uncertain significance,SNV,Intron variant,NM_174936.4:c.658-36G>A,-
+HG003_chr1,chr1,154582475,ADAR,292713,Uncertain significance,Duplication,3' UTR variant,NM_001365045.1:c.*2323_*2330dupCATGCCCC,-
+HG003_chr1,chr1,158611131,"SPTA1, OR10Z1",292928,Uncertain significance,Microsatellite,3' UTR variant,NM_001004478.2:c.*3779_*3786dupACACACAC,-
+HG003_chr1,chr1,159712443,CRP,1692995,Uncertain significance,SNV,3' UTR variant,NM_000567.3:c.*1082G>A,-
+HG003_chr1,chr1,161223893,APOA2,17936,Uncertain significance,SNV,No consequences found,NM_001643.2:c.-323C>T,-
+HG003_chr1,chr1,161548543,FCGR3A,14828,Uncertain significance,SNV,Missense variant,NM_001127592.2:c.509T>A,p.Leu170His
+HG003_chr1,chr1,192809139,"RGS2, LOC129932144",403375,Uncertain significance,SNV,Missense variant,NM_002923.4:c.68G>A,p.Gly23Asp
+HG003_chr1,chr1,206762852,IL10,1050638,Uncertain significance,Microsatellite,No consequences found,NM_000572.3:c.*5783_*5784insAAGGA,-
+HG003_chr1,chr1,206933133,PIGR,13526,Uncertain significance,SNV,Missense variant,NM_002644.4:c.1739C>T,p.Ala580Val
+HG003_chr1,chr1,207479280,CR2,2500016,Uncertain significance,SNV,Missense variant,NM_001006658.3:c.3112G>A,p.Gly1038Ser
+HG003_chr1,chr1,207523953,CR1,2454716,Uncertain significance,SNV,Missense variant,NM_000651.6:c.830G>A,p.Arg277His
+HG003_chr1,chr1,211492048,RD3,295276,Uncertain significance,Microsatellite,5' UTR variant,NM_001164688.2:c.-294_-293delAC,-
+HG003_chr1,chr1,220781893,MTARC2,3213415,Uncertain significance,SNV,"Missense variant, Intron variant",NM_001317338.2:c.1000A>C,p.Met334Leu
+HG003_chr1,chr1,220786988,MTARC1,3213363,Uncertain significance,SNV,Missense variant,NM_022746.4:c.44T>A,p.Leu15His
+HG003_chr1,chr1,226987349,COQ8A,296042,Uncertain significance,SNV,3' UTR variant,NM_020247.5:c.*612C>T,-
+HG003_chr1,chr1,21290752,ECE1,9134,Risk factor,SNV,Intron variant,NM_001113349.2:c.-554C>A,-
+HG003_chr1,chr1,21291253,ECE1,9135,Risk factor,SNV,Intron variant,NM_001113349.2:c.-1055T>G,-
+HG003_chr1,chr1,27370346,FCN3,992481,Risk factor,SNV,Intron variant,NM_004672.5:c.-3749C>A,-
+HG003_chr1,chr1,93909753,"GCLM, LOC129930970",8366,Risk factor,SNV,Genic upstream transcript variant,NM_001308253.2:c.-590C>T,-
+HG003_chr1,chr1,161662856,FCGR2B,5466,Risk factor,SNV,Genic upstream transcript variant,NM_001394477.1:c.-386G>C,-
+HG003_chr1,chr1,203186754,CHI3L1,8112,Risk factor,SNV,No consequences found,NM_001276.4:c.-131C>G,-
+HG003_chr1,chr1,206773552,"IL10, IL19",1710531,Uncertain risk allele,SNV,Intron variant,NM_000572.3:c.-1117A>G,-
+HG003_chr1,chr1,17079454,PADI2,972889,Association,SNV,Intron variant,NM_007365.3:c.1159-39G>A,-
+HG003_chr1,chr1,17118274,PADI2,972891,Association,SNV,Intron variant,NM_007365.3:c.92+1006C>A,-
+HG003_chr1,chr1,47105719,"CYP4Z1, CYP4A22-AS1",1693612,Association,SNV,Intron variant,NM_178134.3:c.1068-409G>A,-
+HG003_chr1,chr1,59926599,CYP2J2,1693587,Association,SNV,"Non-coding transcript variant, Synonymous variant",NM_000775.4:c.148C>T,p.Leu50Leu
+HG003_chr1,chr1,156243466,"BGLAP, PAQR6",126864,Association,SNV,"Non-coding transcript variant, 3' UTR variant",NM_024897.4:c.*395C>T,-
+HG003_chr1,chr1,165632229,MGST3,1693609,Association,SNV,Intron variant,NM_004528.4:c.-8+936G>A,-
+HG003_chr1,chr1,11796321,MTHFR,3520,Drug response,SNV,Missense variant,NM_001330358.2:c.788C>T,p.Ala263Val
+HG003_chr1,chr1,53909897,DIO1,2573328,Drug response,SNV,Intron variant,NM_000792.7:c.682-34C>A,-
+HG003_chr1,chr1,97515839,DPYD,100092,Drug response,SNV,Missense variant,NM_000110.4:c.1627A>G,p.Ile543Val
+HG003_chr1,chr1,2556714,"TNFRSF14, TNFRSF14-AS1",135349,Not provided,SNV,Missense variant,NM_001297605.2:c.50A>G,p.Lys17Arg
+HG003_chr1,chr1,2559459,TNFRSF14,133404,Not provided,SNV,Intron variant,NM_001297605.2:c.305-364C>A,-
+HG003_chr1,chr1,2559503,TNFRSF14,133406,Not provided,SNV,Intron variant,NM_001297605.2:c.305-320C>A,-
+HG003_chr1,chr1,2559766,TNFRSF14,133414,Not provided,SNV,Intron variant,NM_001297605.2:c.305-57C>T,-
+HG003_chr1,chr1,25408711,RHCE,156358,Not provided,SNV,Missense variant,NM_020485.8:c.307C>T,p.Pro103Ser
+HG003_chr1,chr1,25408840,RHCE,156357,Not provided,SNV,Missense variant,NM_020485.8:c.178C>A,p.Leu60Ile
+HG003_chr1,chr1,40257123,ZMPSTE24,140502,Not provided,SNV,No consequences found,NM_005857.5:c.-1149G>A,-
+HG003_chr1,chr1,40276227,ZMPSTE24,140538,Not provided,SNV,Intron variant,NM_005857.5:c.769+4192C>T,-
+HG003_chr1,chr1,94006279,ABCA4,441128,Not provided,Deletion,Intron variant,NM_000350.3:c.6006-698delC,-
+HG003_chr1,chr1,231694549,"DISC1, TSNAX-DISC1",98346,Not provided,SNV,"Missense variant, Non-coding transcript variant, Intron variant",NM_001164537.2:c.791G>A,p.Arg264Gln
+HG003_chr1,chr1,5877129,NPHP4,695589,nan,SNV,"Non-coding transcript variant, Synonymous variant",NM_015102.5:c.2781C>T,p.Ala927Ala
+HG003_chr1,chr1,10475010,PEX14,259436,nan,SNV,Intron variant,NM_004565.3:c.36+8G>A,-
+HG003_chr1,chr1,25800189,SELENON,261269,nan,SNV,No consequences found,NM_020451.3:c.-42T>C,-
+HG003_chr1,chr1,46189236,"TSPAN1, POMGNT1",873654,nan,SNV,"3' UTR variant, Intron variant",NM_001243766.2:c.1985+6G>A,-
+HG003_chr1,chr1,53213424,CPT2,460427,nan,SNV,Synonymous variant,NM_000098.3:c.1806T>C,p.Phe602Phe
+HG003_chr1,chr1,55052420,PCSK9,262906,nan,SNV,Intron variant,NM_174936.4:c.657+9G>A,-
+HG003_chr1,chr1,55057360,PCSK9,262899,nan,SNV,"Non-coding transcript variant, Synonymous variant",NM_174936.4:c.1026A>G,p.Gln342Gln
+HG003_chr1,chr1,115768745,CASQ2,292138,nan,Microsatellite,No consequences found,NM_001232.4:c.-205_-204insTGTGTGTG,-
+HG003_chr1,chr1,120069392,NOTCH2,193452,nan,SNV,Synonymous variant,NM_024408.4:c.15C>G,p.Arg5Arg
+HG003_chr1,chr1,154708031,KCNN3,3113453,nan,SNV,Missense variant,NM_001204087.2:c.2186T>C,p.Ile729Thr
+HG003_chr1,chr1,154988235,FLAD1,1700767,nan,SNV,Missense variant,NM_025207.5:c.503A>G,p.Asn168Ser
+HG003_chr1,chr1,156176898,SEMA4A,292858,nan,SNV,Synonymous variant,NM_001193300.2:c.2187G>A,p.Pro729Pro
+HG003_chr1,chr1,158618068,SPTA1,258954,nan,SNV,Intron variant,NM_003126.4:c.6531-12C>T,-
+HG003_chr1,chr1,158627717,SPTA1,258948,nan,SNV,Missense variant,NM_003126.4:c.5572C>G,p.Leu1858Val
+HG003_chr1,chr1,158642966,SPTA1,258938,nan,SNV,Missense variant,NM_003126.4:c.4453C>T,p.Leu1485Phe
+HG003_chr1,chr1,158668075,SPTA1,293028,nan,Deletion,Intron variant,NM_003126.4:c.1834-16_1834-14delTTT,-
+HG003_chr1,chr1,161214269,NDUFS2,293284,nan,Microsatellite,"Non-coding transcript variant, 3' UTR variant",NM_001377298.1:c.*106_*107dupGT,-
+HG003_chr1,chr1,161223055,APOA2,293295,nan,Microsatellite,Intron variant,NM_001643.2:c.53-11_53-6delTGTGTG,-
+HG003_chr1,chr1,168293284,TBX19,293462,nan,Microsatellite,Intron variant,NM_005149.3:c.603+47_603+48dupGT,-
+HG003_chr1,chr1,179889309,TOR1AIP1,257701,nan,SNV,"Splice acceptor variant, Intron variant",NM_001267578.2:c.554-1G>A,-
+HG003_chr1,chr1,196690107,CFH,294490,nan,SNV,Missense variant,NM_000186.4:c.1204C>T,p.His402Tyr
+HG003_chr1,chr1,196831875,CFHR1,1343368,nan,SNV,Missense variant,NM_002113.3:c.869T>C,p.Leu290Ser
+HG003_chr1,chr1,212897349,FLVCR1,295373,nan,Microsatellite,3' UTR variant,NM_014053.4:c.*2077_*2080dupCACA,-
+HG003_chr1,chr1,216323590,USH2A,48437,nan,SNV,Missense variant,NM_206933.4:c.1434G>C,p.Glu478Asp
+HG003_chr1,chr1,226735804,ITPKB,1705897,nan,SNV,Missense variant,NM_002221.4:c.1655C>A,p.Pro552Gln
+HG003_chr1,chr1,226736237,ITPKB,1705899,nan,SNV,Missense variant,NM_002221.4:c.1222T>G,p.Ser408Ala
+HG003_chr1,chr1,226736941,ITPKB,1705898,nan,SNV,Missense variant,NM_002221.4:c.518G>A,p.Arg173His
+HG003_chr1,chr1,226987464,COQ8A,296047,nan,SNV,3' UTR variant,NM_020247.5:c.*727C>T,-
+HG003_chr1,chr1,236897645,MTR,296586,nan,Deletion,3' UTR variant,NM_001291939.1:c.*16delT,-
+HG003_chr1,chr1,237833281,RYR2,296789,nan,Duplication,3' UTR variant,NM_001035.3:c.*646dupA,-
