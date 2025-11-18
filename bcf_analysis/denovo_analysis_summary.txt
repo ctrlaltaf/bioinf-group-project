@@ -1,0 +1,26 @@
+================================================================================
+BCFtools De Novo Variant Analysis Summary - Chromosome 1
+================================================================================
+
+Analysis Date: Mon Nov 17 09:48:13 PM MST 2025
+Script: run_bcftools_denovo_analysis.sh
+Container Engine: apptainer
+
+INPUT FILES:
+  - Child (HG002)  : /mnt/work_1/gest9386/CU_Boulder/MCDB-4520/bioinf-group-project/data/HG002_chr1/output/HG002_chr1.wf_snp_clinvar.vcf.gz
+  - Father (HG003) : /mnt/work_1/gest9386/CU_Boulder/MCDB-4520/bioinf-group-project/data/HG003_chr1/output/HG003_chr1.wf_snp_clinvar.vcf.gz
+  - Mother (HG004) : /mnt/work_1/gest9386/CU_Boulder/MCDB-4520/bioinf-group-project/data/HG004_chr1/output/HG004_chr1.wf_snp_clinvar.vcf.gz
+
+OUTPUT DIRECTORY: /mnt/work_1/gest9386/CU_Boulder/MCDB-4520/bcf_analysis
+
+RESULTS:
+  - Total de novo candidate variants in HG002: 70
+  - These are ClinVar variants present ONLY in the child
+  - Not present in either parent
+
+PATHOGENIC VARIANTS:
+  Found pathogenic variants (see below):
+
+chr1	100189351	291391	TA	T	12.45	PASS	F;ANN=T|3_prime_UTR_variant|MODIFIER|DBT|DBT|transcript|NM_001918.5|protein_coding|11/11|c.*6903delT|||||6903|,T|downstream_gene_variant|MODIFIER|DBT|DBT|transcript|XM_017000469.2|protein_coding||c.*6903delT|||||4568|,T|downstream_gene_variant|MODIFIER|DBT|DBT|transcript|XM_017000468.2|protein_coding||c.*6903delT|||||4568|,T|downstream_gene_variant|MODIFIER|DBT|DBT|transcript|XM_005270545.4|protein_coding||c.*6903delT|||||4568|;ALLELEID=275582;CLNDISDB=MONDO:MONDO:0009563,MeSH:D008375,MedGen:C0024776,OMIM:PS248600,Orphanet:511|MedGen:C3661900;CLNDN=Maple_syrup_urine_disease|not_provided;CLNHGVS=NC_000001.11:g.100189370del;CLNREVSTAT=criteria_provided,_conflicting_classifications;CLNSIG=Conflicting_classifications_of_pathogenicity;CLNSIGCONF=Uncertain_significance(1)|Benign(1);CLNSIGSCV=SCV000346135|SCV001943015;CLNVC=Deletion;CLNVCSO=SO:0000159;CLNVI=ClinGen:CA10607133;GENEINFO=DBT:1629;MC=SO:0001624|3_prime_UTR_variant;ORIGIN=1;RS=71709231	GT:GQ:DP:AD:AF	1/1:12:45:8,13:0.2889
+chr1	158668075	293026	GA	G	24.7	PASS	F;ANN=G|intron_variant|MODIFIER|SPTA1|SPTA1|transcript|NM_003126.4|protein_coding|14/51|c.1834-14delT||||||,G|intron_variant|MODIFIER|SPTA1|SPTA1|transcript|XM_011509917.3|protein_coding|14/50|c.1834-14delT||||||,G|intron_variant|MODIFIER|SPTA1|SPTA1|transcript|XM_011509916.2|protein_coding|15/52|c.1834-14delT||||||,G|intron_variant|MODIFIER|SPTA1|SPTA1|transcript|XM_011509918.3|protein_coding|14/43|c.1834-14delT||||||,G|intron_variant|MODIFIER|SPTA1|SPTA1|transcript|XR_921911.3|pseudogene|14/40|n.1960-14delT||||||,G|intron_variant|MODIFIER|SPTA1|SPTA1|transcript|XM_011509919.3|protein_coding|14/36|c.1834-14delT||||||,G|intron_variant|MODIFIER|SPTA1|SPTA1|transcript|XR_921912.2|pseudogene|14/34|n.1962-14delT||||||;ALLELEID=277732;CLNDISDB=MedGen:CN239472|MedGen:C3661900|Human_Phenotype_Ontology:HP:0004805,Human_Phenotype_Ontology:HP:0004839,MONDO:MONDO:0009948,MedGen:C0520739,OMIM:266140,Orphanet:98867|Human_Phenotype_Ontology:HP:0004445,Human_Phenotype_Ontology:HP:0004837,MedGen:C0427480;CLNDN=Spherocytosis,_Recessive|not_provided|Pyropoikilocytosis,_hereditary|Elliptocytosis;CLNHGVS=NC_000001.11:g.158668091del;CLNREVSTAT=criteria_provided,_conflicting_classifications;CLNSIG=Conflicting_classifications_of_pathogenicity;CLNSIGCONF=Uncertain_significance(3)|Benign(1);CLNSIGSCV=SCV000349523|SCV000349524|SCV000349525|SCV001941968;CLNVC=Deletion;CLNVCSO=SO:0000159;CLNVI=ClinGen:CA1183587;GENEINFO=SPTA1:6708;MC=SO:0001627|intron_variant;ORIGIN=1;RS=3039789	GT:GQ:DP:AD:AF	1/1:24:52:5,21:0.4038
+chr1	241500602	296865	T	TGA	30.77	PASS	F;ANN=TGA|intron_variant|MODIFIER|FH|FH|transcript|NM_000143.4|protein_coding|8/9|c.1237-14_1237-13dupTC||||||,TGA|intron_variant|MODIFIER|FH|FH|transcript|XM_011544132.2|protein_coding|8/9|c.1009-14_1009-13dupTC||||||;ALLELEID=281818;CLNDISDB=MedGen:CN169374|MedGen:C3661900|Human_Phenotype_Ontology:HP:0007437,MONDO:MONDO:0007888,MedGen:C1708350,OMIM:150800,Orphanet:523|MONDO:MONDO:0011730,MedGen:C0342770,OMIM:606812,Orphanet:24|MONDO:MONDO:0015356,MeSH:D009386,MedGen:C0027672,Orphanet:140162;CLNDN=not_specified|not_provided|Hereditary_leiomyomatosis_and_renal_cell_cancer|Fumarase_deficiency|Hereditary_cancer-predisposing_syndrome;CLNHGVS=NC_000001.11:g.241500603GA[20];CLNREVSTAT=criteria_provided,_conflicting_classifications;CLNSIG=Conflicting_classifications_of_pathogenicity;CLNSIGCONF=Uncertain_significance(4)|Benign(5)|Likely_benign(1);CLNSIGSCV=SCV000356676|SCV000356677|SCV000356678|SCV000539177|SCV001135604|SCV001852661|SCV002535136|SCV002568077|SCV004849019|SCV005918032;CLNVC=Microsatellite;CLNVCSO=SO:0000289;CLNVI=ClinGen:CA10610742;GENEINFO=FH:2271;MC=SO:0001627|intron_variant;ORIGIN=1;RS=144131869	GT:GQ:DP:AD:AF:PS	1|0:30:57:11,20:0.3509:240944304
