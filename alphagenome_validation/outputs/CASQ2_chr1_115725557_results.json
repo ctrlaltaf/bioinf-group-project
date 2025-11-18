@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "CASQ2_chr1_115725557",
+    "gene": "CASQ2",
+    "chromosome": "chr1",
+    "position": 115725557,
+    "ref": "GAAAA",
+    "alt": "G",
+    "type": "splice_region_variant&intron_variant",
+    "disease": "Catecholaminergic polymorphic ventricular tachycardia 1|not provided|Cardiomyopathy|not specified|Catecholaminergic polymorphic ventricular tachycardia 2",
+    "clinvar_classification": "Benign/Likely_benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 115201269,
+    "end": 116249845,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.44762182235717773,
+      "mean_splice_change": 0.0003204104723408818,
+      "local_max_splice_change": 0.3155632019042969,
+      "local_mean_splice_change": 0.0008549975464120507,
+      "junction_array_shape": [
+        1019,
+        367
+      ],
+      "variant_array_index": 509,
+      "splicing_affected": true
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.016422351822257042,
+      "max_accessibility_change": 0.9218743443489075,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:36:06.332555",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "CASQ2_chr1_115725557",
+    "gene": "CASQ2",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "likely_pathogenic",
+        "value": 0.3155632019042969,
+        "interpretation": "Local splice junction change of 0.316 (global max: 0.448) - likely affects splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.9218743443489075,
+        "interpretation": "Accessibility change of 0.922 - may affect regulatory function"
+      }
+    ],
+    "classification": "Likely_pathogenic",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign/Likely_benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

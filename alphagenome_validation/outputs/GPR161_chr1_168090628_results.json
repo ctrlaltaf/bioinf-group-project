@@ -1,0 +1,79 @@
+{
+  "variant_info": {
+    "name": "GPR161_chr1_168090628",
+    "gene": "GPR161",
+    "chromosome": "chr1",
+    "position": 168090628,
+    "ref": "A",
+    "alt": "G",
+    "type": "synonymous_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, SPLICE_JUNCTIONS",
+    "outputs": [
+      "RNA_SEQ",
+      "SPLICE_JUNCTIONS"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 167566340,
+    "end": 168614916,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.20737159252166748,
+      "alternate_mean": 0.2066187858581543,
+      "fold_change": 0.9963697695795314,
+      "log2_fold_change": -0.005246844825386309,
+      "absolute_difference": 0.0007528066635131836,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.03442668914794922,
+      "mean_splice_change": 2.667422995727975e-05,
+      "local_max_splice_change": 0.001318313181400299,
+      "local_mean_splice_change": 3.16988916893024e-06,
+      "junction_array_shape": [
+        503,
+        367
+      ],
+      "variant_array_index": 251,
+      "splicing_affected": false
+    }
+  },
+  "timestamp": "2025-11-17T22:38:06.809404",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "GPR161_chr1_168090628",
+    "gene": "GPR161",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.9963697695795314,
+        "interpretation": "Minimal expression change (1.00x) - likely benign"
+      },
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 0.001318313181400299,
+        "interpretation": "Minimal splice change (0.001) near variant - unlikely to affect splicing"
+      }
+    ],
+    "classification": "Likely_benign",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

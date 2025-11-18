@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "ARID1A_chr1_26780772",
+    "gene": "ARID1A",
+    "chromosome": "chr1",
+    "position": 26780772,
+    "ref": "T",
+    "alt": "TC",
+    "type": "3_prime_UTR_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, ATAC",
+    "outputs": [
+      "RNA_SEQ",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 26256484,
+    "end": 27305060,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 1.160888910293579,
+      "alternate_mean": 1.0950847864151,
+      "fold_change": 0.9433157442585633,
+      "log2_fold_change": -0.08418734791932066,
+      "absolute_difference": 0.065804123878479,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.05569751188158989,
+      "max_accessibility_change": 1.368896484375,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:31:41.319097",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "ARID1A_chr1_26780772",
+    "gene": "ARID1A",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.9433157442585633,
+        "interpretation": "Minimal expression change (0.94x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 1.368896484375,
+        "interpretation": "Accessibility change of 1.369 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

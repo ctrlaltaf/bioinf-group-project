@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "CCDC28B_chr1_32205464",
+    "gene": "CCDC28B",
+    "chromosome": "chr1",
+    "position": 32205464,
+    "ref": "A",
+    "alt": "C",
+    "type": "3_prime_UTR_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, ATAC",
+    "outputs": [
+      "RNA_SEQ",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 31681176,
+    "end": 32729752,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.02911052480340004,
+      "alternate_mean": 0.027690034359693527,
+      "fold_change": 0.9512035439656312,
+      "log2_fold_change": -0.07217400464387289,
+      "absolute_difference": 0.0014204904437065125,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.06050514429807663,
+      "max_accessibility_change": 6.75,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:32:01.803714",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "CCDC28B_chr1_32205464",
+    "gene": "CCDC28B",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.9512035439656312,
+        "interpretation": "Minimal expression change (0.95x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 6.75,
+        "interpretation": "Accessibility change of 6.750 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

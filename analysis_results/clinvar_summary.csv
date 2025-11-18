@@ -1,0 +1,4 @@
+Sample,Total ClinVar,Pathogenic/Likely Pathogenic,Benign/Likely Benign,Uncertain Significance
+HG002 (Son (Proband)),3653,34,3488,24
+HG003 (Father),3592,35,3429,25
+HG004 (Mother),3615,33,3458,24

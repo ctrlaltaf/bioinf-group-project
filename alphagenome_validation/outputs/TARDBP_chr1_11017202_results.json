@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "TARDBP_chr1_11017202",
+    "gene": "TARDBP",
+    "chromosome": "chr1",
+    "position": 11017202,
+    "ref": "CT",
+    "alt": "C",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 10492914,
+    "end": 11541490,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.13834989070892334,
+      "mean_splice_change": 0.0003340387484058738,
+      "local_max_splice_change": 0.10020780563354492,
+      "local_mean_splice_change": 0.0009546612272970378,
+      "junction_array_shape": [
+        697,
+        367
+      ],
+      "variant_array_index": 348,
+      "splicing_affected": true
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.015156732872128487,
+      "max_accessibility_change": 0.675201416015625,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:28:33.802431",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "TARDBP_chr1_11017202",
+    "gene": "TARDBP",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "likely_pathogenic",
+        "value": 0.10020780563354492,
+        "interpretation": "Local splice junction change of 0.100 (global max: 0.138) - likely affects splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.675201416015625,
+        "interpretation": "Accessibility change of 0.675 - may affect regulatory function"
+      }
+    ],
+    "classification": "Likely_pathogenic",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "LAMC1_chr1_183131172",
+    "gene": "LAMC1",
+    "chromosome": "chr1",
+    "position": 183131172,
+    "ref": "C",
+    "alt": "CAAAAA",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 182606884,
+    "end": 183655460,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 1.8741493225097656,
+      "mean_splice_change": 0.0009066258207894862,
+      "local_max_splice_change": 0.21172046661376953,
+      "local_mean_splice_change": 0.0004869077238254249,
+      "junction_array_shape": [
+        2505,
+        367
+      ],
+      "variant_array_index": 1252,
+      "splicing_affected": true
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.005353599786758423,
+      "max_accessibility_change": 0.220703125,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:38:42.000150",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "LAMC1_chr1_183131172",
+    "gene": "LAMC1",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "likely_pathogenic",
+        "value": 0.21172046661376953,
+        "interpretation": "Local splice junction change of 0.212 (global max: 1.874) - likely affects splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.220703125,
+        "interpretation": "Accessibility change of 0.221 - may affect regulatory function"
+      }
+    ],
+    "classification": "Likely_pathogenic",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

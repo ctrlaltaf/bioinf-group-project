@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "MMACHC_chr1_45509416",
+    "gene": "MMACHC",
+    "chromosome": "chr1",
+    "position": 45509416,
+    "ref": "G",
+    "alt": "GTTTTT",
+    "type": "3_prime_UTR_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, ATAC",
+    "outputs": [
+      "RNA_SEQ",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 44985128,
+    "end": 46033704,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.0998709499835968,
+      "alternate_mean": 0.07647542655467987,
+      "fold_change": 0.765742456312276,
+      "log2_fold_change": -0.38506884565794125,
+      "absolute_difference": 0.02339552342891693,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.02889021672308445,
+      "max_accessibility_change": 2.95263671875,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:32:47.142562",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "MMACHC_chr1_45509416",
+    "gene": "MMACHC",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.765742456312276,
+        "interpretation": "Minimal expression change (0.77x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 2.95263671875,
+        "interpretation": "Accessibility change of 2.953 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

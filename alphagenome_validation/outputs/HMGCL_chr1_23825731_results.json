@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "HMGCL_chr1_23825731",
+    "gene": "HMGCL",
+    "chromosome": "chr1",
+    "position": 23825731,
+    "ref": "TCCAAAAAAAAAAAAAAAAA",
+    "alt": "T",
+    "type": "upstream_gene_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "ATAC, RNA_SEQ",
+    "outputs": [
+      "ATAC",
+      "RNA_SEQ"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 23301443,
+    "end": 24350019,
+    "size": 1048576
+  },
+  "predictions": {
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.07118412852287292,
+      "max_accessibility_change": 3.3437259197235107,
+      "accessibility_affected": true,
+      "window_size": 100
+    },
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.0010192652698606253,
+      "alternate_mean": 0.0006406537722796202,
+      "fold_change": 0.6285446892222899,
+      "log2_fold_change": -0.6699127716778118,
+      "absolute_difference": 0.0003786114975810051,
+      "effect_direction": "decreased",
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:31:01.251887",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "HMGCL_chr1_23825731",
+    "gene": "HMGCL",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "moderate",
+        "value": 0.6285446892222899,
+        "interpretation": "decreased expression by 0.63x - moderate impact"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 3.3437259197235107,
+        "interpretation": "Accessibility change of 3.344 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "DDOST_chr1_20655167",
+    "gene": "DDOST",
+    "chromosome": "chr1",
+    "position": 20655167,
+    "ref": "TTTTG",
+    "alt": "T",
+    "type": "upstream_gene_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "ATAC, RNA_SEQ",
+    "outputs": [
+      "ATAC",
+      "RNA_SEQ"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 20130879,
+    "end": 21179455,
+    "size": 1048576
+  },
+  "predictions": {
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.01343559380620718,
+      "max_accessibility_change": 0.7103500366210938,
+      "accessibility_affected": true,
+      "window_size": 100
+    },
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.016578909009695053,
+      "alternate_mean": 0.014334544539451599,
+      "fold_change": 0.8646253219116535,
+      "log2_fold_change": -0.209853006442792,
+      "absolute_difference": 0.002244364470243454,
+      "effect_direction": "decreased",
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:30:10.179010",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "DDOST_chr1_20655167",
+    "gene": "DDOST",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.8646253219116535,
+        "interpretation": "Minimal expression change (0.86x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.7103500366210938,
+        "interpretation": "Accessibility change of 0.710 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

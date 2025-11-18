@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "CTH_chr1_70438840",
+    "gene": "CTH",
+    "chromosome": "chr1",
+    "position": 70438840,
+    "ref": "T",
+    "alt": "TTGTG",
+    "type": "intron_variant",
+    "disease": "not provided|Cystathioninuria",
+    "clinvar_classification": "Likely_benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 69914552,
+    "end": 70963128,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.05228781700134277,
+      "mean_splice_change": 0.0001050474020303227,
+      "local_max_splice_change": 0.03215348720550537,
+      "local_mean_splice_change": 0.00015497025742661208,
+      "junction_array_shape": [
+        508,
+        367
+      ],
+      "variant_array_index": 254,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.01251150481402874,
+      "max_accessibility_change": 0.3026854991912842,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:33:55.735000",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "CTH_chr1_70438840",
+    "gene": "CTH",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 0.03215348720550537,
+        "interpretation": "Minimal splice change (0.032) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.3026854991912842,
+        "interpretation": "Accessibility change of 0.303 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Likely_benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

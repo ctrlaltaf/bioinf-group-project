@@ -1,0 +1,4 @@
+Sample,Total Variants,SNVs,INDELs,ClinVar Annotated,Avg Quality
+HG002 (Son (Proband)),528824,457988,70836,3653,31.96
+HG003 (Father),525499,455551,69948,3592,30.83
+HG004 (Mother),532812,462807,70005,3615,30.54

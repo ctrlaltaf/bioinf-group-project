@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "CEP104_chr1_3836304",
+    "gene": "CEP104",
+    "chromosome": "chr1",
+    "position": 3836304,
+    "ref": "CAA",
+    "alt": "C",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 3312016,
+    "end": 4360592,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.07591474056243896,
+      "mean_splice_change": 0.0001503605453763157,
+      "local_max_splice_change": 0.04052579402923584,
+      "local_mean_splice_change": 0.0001999593951040879,
+      "junction_array_shape": [
+        1621,
+        367
+      ],
+      "variant_array_index": 810,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.00492375623434782,
+      "max_accessibility_change": 0.24707020819187164,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:28:25.415840",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "CEP104_chr1_3836304",
+    "gene": "CEP104",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 0.04052579402923584,
+        "interpretation": "Minimal splice change (0.041) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.24707020819187164,
+        "interpretation": "Accessibility change of 0.247 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

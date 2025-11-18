@@ -1,0 +1,4 @@
+Sample,Total SVs,Deletions (DEL),Insertions (INS),Duplications (DUP),Inversions (INV),Mean Size (bp),Median Size (bp),Max Size (bp)
+HG002 (Son (Proband)),2460,1006,1441,7,6,884,90,931781
+HG003 (Father),2418,985,1427,5,1,461,88,50055
+HG004 (Mother),2487,1019,1458,5,5,488,90,50055

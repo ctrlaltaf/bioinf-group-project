@@ -1,0 +1,79 @@
+{
+  "variant_info": {
+    "name": "SLC2A1_chr1_42943295",
+    "gene": "SLC2A1",
+    "chromosome": "chr1",
+    "position": 42943295,
+    "ref": "G",
+    "alt": "A",
+    "type": "synonymous_variant",
+    "disease": "not provided|Hereditary cryohydrocytosis with reduced stomatin|Inborn genetic diseases|GLUT1 deficiency syndrome 1, autosomal recessive|Encephalopathy due to GLUT1 deficiency|Childhood onset GLUT1 deficiency syndrome 2|not specified|Dystonia 9",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, SPLICE_JUNCTIONS",
+    "outputs": [
+      "RNA_SEQ",
+      "SPLICE_JUNCTIONS"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 42419007,
+    "end": 43467583,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 1.909722089767456,
+      "alternate_mean": 1.89229416847229,
+      "fold_change": 0.9908741060343036,
+      "log2_fold_change": -0.013226325202785315,
+      "absolute_difference": 0.017427921295166016,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.22322142124176025,
+      "mean_splice_change": 0.00020410648721735924,
+      "local_max_splice_change": 0.09586620330810547,
+      "local_mean_splice_change": 0.00031413862598128617,
+      "junction_array_shape": [
+        788,
+        367
+      ],
+      "variant_array_index": 394,
+      "splicing_affected": false
+    }
+  },
+  "timestamp": "2025-11-17T22:32:31.167348",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "SLC2A1_chr1_42943295",
+    "gene": "SLC2A1",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.9908741060343036,
+        "interpretation": "Minimal expression change (0.99x) - likely benign"
+      },
+      {
+        "type": "splicing",
+        "effect": "uncertain",
+        "value": 0.09586620330810547,
+        "interpretation": "Moderate splice change (0.096) near variant - uncertain impact"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

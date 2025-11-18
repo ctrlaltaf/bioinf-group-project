@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "LEPR_chr1_65592521",
+    "gene": "LEPR",
+    "chromosome": "chr1",
+    "position": 65592521,
+    "ref": "G",
+    "alt": "GT",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 65068233,
+    "end": 66116809,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.12515437602996826,
+      "mean_splice_change": 7.141862442949787e-05,
+      "local_max_splice_change": 0.0008866097778081894,
+      "local_mean_splice_change": 1.4845920759398723e-06,
+      "junction_array_shape": [
+        2779,
+        367
+      ],
+      "variant_array_index": 1389,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.013795508071780205,
+      "max_accessibility_change": 0.6729736328125,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:33:41.132480",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "LEPR_chr1_65592521",
+    "gene": "LEPR",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 0.0008866097778081894,
+        "interpretation": "Minimal splice change (0.001) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.6729736328125,
+        "interpretation": "Accessibility change of 0.673 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

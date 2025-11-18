@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "NPPA_chr1_11846911",
+    "gene": "NPPA",
+    "chromosome": "chr1",
+    "position": 11846911,
+    "ref": "GCC",
+    "alt": "G",
+    "type": "downstream_gene_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "ATAC, RNA_SEQ",
+    "outputs": [
+      "ATAC",
+      "RNA_SEQ"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 11322623,
+    "end": 12371199,
+    "size": 1048576
+  },
+  "predictions": {
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.015355776064097881,
+      "max_accessibility_change": 1.626953125,
+      "accessibility_affected": true,
+      "window_size": 100
+    },
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.015246042981743813,
+      "alternate_mean": 0.018512843176722527,
+      "fold_change": 1.2142720048008853,
+      "log2_fold_change": 0.2800916308372058,
+      "absolute_difference": 0.003266800194978714,
+      "effect_direction": "increased",
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:28:48.080023",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "NPPA_chr1_11846911",
+    "gene": "NPPA",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 1.2142720048008853,
+        "interpretation": "Minimal expression change (1.21x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 1.626953125,
+        "interpretation": "Accessibility change of 1.627 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

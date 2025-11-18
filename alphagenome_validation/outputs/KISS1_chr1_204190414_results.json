@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "KISS1_chr1_204190414",
+    "gene": "KISS1",
+    "chromosome": "chr1",
+    "position": 204190414,
+    "ref": "G",
+    "alt": "C",
+    "type": "3_prime_UTR_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, ATAC",
+    "outputs": [
+      "RNA_SEQ",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 203666126,
+    "end": 204714702,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.016515865921974182,
+      "alternate_mean": 0.01650235988199711,
+      "fold_change": 0.9991822384584084,
+      "log2_fold_change": -0.0011802631734004552,
+      "absolute_difference": 1.350603997707367e-05,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.04807279258966446,
+      "max_accessibility_change": 3.328125,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:39:33.935807",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "KISS1_chr1_204190414",
+    "gene": "KISS1",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.9991822384584084,
+        "interpretation": "Minimal expression change (1.00x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 3.328125,
+        "interpretation": "Accessibility change of 3.328 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "SLC35A3_chr1_100015152",
+    "gene": "SLC35A3",
+    "chromosome": "chr1",
+    "position": 100015152,
+    "ref": "C",
+    "alt": "T",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 99490864,
+    "end": 100539440,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.018131256103515625,
+      "mean_splice_change": 2.3898386643850245e-05,
+      "local_max_splice_change": 0.0017842352390289307,
+      "local_mean_splice_change": 3.78582876692235e-06,
+      "junction_array_shape": [
+        2287,
+        367
+      ],
+      "variant_array_index": 1143,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.00114575179759413,
+      "max_accessibility_change": 0.056640625,
+      "accessibility_affected": false,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:34:38.765585",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "SLC35A3_chr1_100015152",
+    "gene": "SLC35A3",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 0.0017842352390289307,
+        "interpretation": "Minimal splice change (0.002) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "minimal",
+        "value": 0.056640625,
+        "interpretation": "Minimal accessibility change (0.057) - limited regulatory impact"
+      }
+    ],
+    "classification": "Likely_benign",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}
