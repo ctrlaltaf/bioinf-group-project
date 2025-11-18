@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "IL6R_chr1_154437417",
+    "gene": "IL6R",
+    "chromosome": "chr1",
+    "position": 154437417,
+    "ref": "A",
+    "alt": "AT",
+    "type": "splice_region_variant&intron_variant",
+    "disease": "IL6R-related disorder|not specified",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 153913129,
+    "end": 154961705,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.15842151641845703,
+      "mean_splice_change": 0.00017353706061840057,
+      "local_max_splice_change": 0.0617527961730957,
+      "local_mean_splice_change": 0.00011624606122495607,
+      "junction_array_shape": [
+        1021,
+        367
+      ],
+      "variant_array_index": 510,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.03182031959295273,
+      "max_accessibility_change": 2.552001953125,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:37:01.703857",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "IL6R_chr1_154437417",
+    "gene": "IL6R",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "uncertain",
+        "value": 0.0617527961730957,
+        "interpretation": "Moderate splice change (0.062) near variant - uncertain impact"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 2.552001953125,
+        "interpretation": "Accessibility change of 2.552 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

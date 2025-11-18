@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "LAMC2_chr1_183236388",
+    "gene": "LAMC2",
+    "chromosome": "chr1",
+    "position": 183236388,
+    "ref": "CA",
+    "alt": "C",
+    "type": "downstream_gene_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "ATAC, RNA_SEQ",
+    "outputs": [
+      "ATAC",
+      "RNA_SEQ"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 182712100,
+    "end": 183760676,
+    "size": 1048576
+  },
+  "predictions": {
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.006122258026152849,
+      "max_accessibility_change": 0.5312473773956299,
+      "accessibility_affected": true,
+      "window_size": 100
+    },
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.0057519287802278996,
+      "alternate_mean": 0.005781084299087524,
+      "fold_change": 1.005068824732296,
+      "log2_fold_change": 0.007294297125814196,
+      "absolute_difference": 2.9155518859624863e-05,
+      "effect_direction": "increased",
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:38:56.684494",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "LAMC2_chr1_183236388",
+    "gene": "LAMC2",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 1.005068824732296,
+        "interpretation": "Minimal expression change (1.01x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.5312473773956299,
+        "interpretation": "Accessibility change of 0.531 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

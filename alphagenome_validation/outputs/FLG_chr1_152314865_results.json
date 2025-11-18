@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "FLG_chr1_152314865",
+    "gene": "FLG",
+    "chromosome": "chr1",
+    "position": 152314865,
+    "ref": "CT",
+    "alt": "C",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 151790577,
+    "end": 152839153,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.8910207748413086,
+      "mean_splice_change": 1.2528509614639916e-05,
+      "local_max_splice_change": 3.1991046853363514e-05,
+      "local_mean_splice_change": 3.2322986953658983e-07,
+      "junction_array_shape": [
+        6115,
+        367
+      ],
+      "variant_array_index": 3057,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.006761488039046526,
+      "max_accessibility_change": 0.18725204467773438,
+      "accessibility_affected": false,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:36:54.696403",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "FLG_chr1_152314865",
+    "gene": "FLG",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 3.1991046853363514e-05,
+        "interpretation": "Minimal splice change (0.000) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "minimal",
+        "value": 0.18725204467773438,
+        "interpretation": "Minimal accessibility change (0.187) - limited regulatory impact"
+      }
+    ],
+    "classification": "Likely_benign",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

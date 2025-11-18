@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "EPHX1_chr1_225839366",
+    "gene": "EPHX1",
+    "chromosome": "chr1",
+    "position": 225839366,
+    "ref": "G",
+    "alt": "GGT",
+    "type": "downstream_gene_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "ATAC, RNA_SEQ",
+    "outputs": [
+      "ATAC",
+      "RNA_SEQ"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 225315078,
+    "end": 226363654,
+    "size": 1048576
+  },
+  "predictions": {
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.009677750989794731,
+      "max_accessibility_change": 0.47265625,
+      "accessibility_affected": true,
+      "window_size": 100
+    },
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.540338933467865,
+      "alternate_mean": 0.5336333513259888,
+      "fold_change": 0.9875900444581327,
+      "log2_fold_change": -0.01801580162585977,
+      "absolute_difference": 0.006705582141876221,
+      "effect_direction": "decreased",
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:40:49.227141",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "EPHX1_chr1_225839366",
+    "gene": "EPHX1",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.9875900444581327,
+        "interpretation": "Minimal expression change (0.99x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.47265625,
+        "interpretation": "Accessibility change of 0.473 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

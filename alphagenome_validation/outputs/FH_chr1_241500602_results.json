@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "FH_chr1_241500602",
+    "gene": "FH",
+    "chromosome": "chr1",
+    "position": 241500602,
+    "ref": "T",
+    "alt": "TGA",
+    "type": "intron_variant",
+    "disease": "not specified|not provided|Hereditary leiomyomatosis and renal cell cancer|Fumarase deficiency|Hereditary cancer-predisposing syndrome",
+    "clinvar_classification": "Conflicting_classifications_of_pathogenicity",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 240976314,
+    "end": 242024890,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.5537629127502441,
+      "mean_splice_change": 0.0018219868652522564,
+      "local_max_splice_change": 0.4944887161254883,
+      "local_mean_splice_change": 0.0022279650438576937,
+      "junction_array_shape": [
+        416,
+        367
+      ],
+      "variant_array_index": 208,
+      "splicing_affected": true
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.006423850543797016,
+      "max_accessibility_change": 0.12518310546875,
+      "accessibility_affected": false,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:41:43.660150",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "FH_chr1_241500602",
+    "gene": "FH",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "likely_pathogenic",
+        "value": 0.4944887161254883,
+        "interpretation": "Local splice junction change of 0.494 (global max: 0.554) - likely affects splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "minimal",
+        "value": 0.12518310546875,
+        "interpretation": "Minimal accessibility change (0.125) - limited regulatory impact"
+      }
+    ],
+    "classification": "Likely_pathogenic",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Conflicting_classifications_of_pathogenicity",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

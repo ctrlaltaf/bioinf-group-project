@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "DDR2_chr1_162767061",
+    "gene": "DDR2",
+    "chromosome": "chr1",
+    "position": 162767061,
+    "ref": "G",
+    "alt": "GAAAA",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 162242773,
+    "end": 163291349,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.596400260925293,
+      "mean_splice_change": 0.00013462324568536133,
+      "local_max_splice_change": 0.016472339630126953,
+      "local_mean_splice_change": 3.380555790499784e-05,
+      "junction_array_shape": [
+        1868,
+        367
+      ],
+      "variant_array_index": 934,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.01792924292385578,
+      "max_accessibility_change": 0.7027683258056641,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:37:52.749887",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "DDR2_chr1_162767061",
+    "gene": "DDR2",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 0.016472339630126953,
+        "interpretation": "Minimal splice change (0.016) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.7027683258056641,
+        "interpretation": "Accessibility change of 0.703 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

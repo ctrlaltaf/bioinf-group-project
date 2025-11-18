@@ -1,0 +1,79 @@
+{
+  "variant_info": {
+    "name": "CCDST_chr1_152219233",
+    "gene": "CCDST",
+    "chromosome": "chr1",
+    "position": 152219233,
+    "ref": "C",
+    "alt": "G",
+    "type": "missense_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, SPLICE_JUNCTIONS",
+    "outputs": [
+      "RNA_SEQ",
+      "SPLICE_JUNCTIONS"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 151694945,
+    "end": 152743521,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.010887868702411652,
+      "alternate_mean": 0.011015485040843487,
+      "fold_change": 1.0117209659594415,
+      "log2_fold_change": 0.016811447606438674,
+      "absolute_difference": 0.00012761633843183517,
+      "effect_direction": "increased",
+      "window_size": 100
+    },
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.041420936584472656,
+      "mean_splice_change": 6.926391051820247e-07,
+      "local_max_splice_change": 7.658149115741253e-06,
+      "local_mean_splice_change": 1.240292561988099e-07,
+      "junction_array_shape": [
+        5628,
+        367
+      ],
+      "variant_array_index": 2814,
+      "splicing_affected": false
+    }
+  },
+  "timestamp": "2025-11-17T22:36:40.272274",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "CCDST_chr1_152219233",
+    "gene": "CCDST",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 1.0117209659594415,
+        "interpretation": "Minimal expression change (1.01x) - likely benign"
+      },
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 7.658149115741253e-06,
+        "interpretation": "Minimal splice change (0.000) near variant - unlikely to affect splicing"
+      }
+    ],
+    "classification": "Likely_benign",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

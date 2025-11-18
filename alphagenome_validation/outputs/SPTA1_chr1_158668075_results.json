@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "SPTA1_chr1_158668075",
+    "gene": "SPTA1",
+    "chromosome": "chr1",
+    "position": 158668075,
+    "ref": "GA",
+    "alt": "G",
+    "type": "intron_variant",
+    "disease": "Spherocytosis, Recessive|not provided|Pyropoikilocytosis, hereditary|Elliptocytosis",
+    "clinvar_classification": "Conflicting_classifications_of_pathogenicity",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 158143787,
+    "end": 159192363,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.19805455207824707,
+      "mean_splice_change": 4.5671760744880885e-05,
+      "local_max_splice_change": 0.07625079154968262,
+      "local_mean_splice_change": 4.4238502596272156e-05,
+      "junction_array_shape": [
+        2601,
+        367
+      ],
+      "variant_array_index": 1300,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.005098178517073393,
+      "max_accessibility_change": 0.13916015625,
+      "accessibility_affected": false,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:37:08.488396",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "SPTA1_chr1_158668075",
+    "gene": "SPTA1",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "uncertain",
+        "value": 0.07625079154968262,
+        "interpretation": "Moderate splice change (0.076) near variant - uncertain impact"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "minimal",
+        "value": 0.13916015625,
+        "interpretation": "Minimal accessibility change (0.139) - limited regulatory impact"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Conflicting_classifications_of_pathogenicity",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

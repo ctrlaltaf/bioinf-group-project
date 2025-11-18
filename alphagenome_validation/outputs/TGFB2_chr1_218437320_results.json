@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "TGFB2_chr1_218437320",
+    "gene": "TGFB2",
+    "chromosome": "chr1",
+    "position": 218437320,
+    "ref": "CTT",
+    "alt": "C",
+    "type": "splice_region_variant&intron_variant",
+    "disease": "Loeys-Dietz syndrome 4|not specified",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 217913032,
+    "end": 218961608,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.18834590911865234,
+      "mean_splice_change": 0.000354560324922204,
+      "local_max_splice_change": 0.118621826171875,
+      "local_mean_splice_change": 0.0005628034705296159,
+      "junction_array_shape": [
+        206,
+        367
+      ],
+      "variant_array_index": 103,
+      "splicing_affected": true
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.01371541153639555,
+      "max_accessibility_change": 1.564208984375,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:40:07.364177",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "TGFB2_chr1_218437320",
+    "gene": "TGFB2",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "likely_pathogenic",
+        "value": 0.118621826171875,
+        "interpretation": "Local splice junction change of 0.119 (global max: 0.188) - likely affects splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 1.564208984375,
+        "interpretation": "Accessibility change of 1.564 - may affect regulatory function"
+      }
+    ],
+    "classification": "Likely_pathogenic",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

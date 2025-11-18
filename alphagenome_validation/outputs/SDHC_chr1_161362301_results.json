@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "SDHC_chr1_161362301",
+    "gene": "SDHC",
+    "chromosome": "chr1",
+    "position": 161362301,
+    "ref": "CT",
+    "alt": "C",
+    "type": "downstream_gene_variant",
+    "disease": "not specified|not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "ATAC, RNA_SEQ",
+    "outputs": [
+      "ATAC",
+      "RNA_SEQ"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 160838013,
+    "end": 161886589,
+    "size": 1048576
+  },
+  "predictions": {
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.014373993501067162,
+      "max_accessibility_change": 0.660149097442627,
+      "accessibility_affected": true,
+      "window_size": 100
+    },
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.42055314779281616,
+      "alternate_mean": 0.44019290804862976,
+      "fold_change": 1.046699829400609,
+      "log2_fold_change": 0.06584776822428755,
+      "absolute_difference": 0.0196397602558136,
+      "effect_direction": "increased",
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:37:31.802178",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "SDHC_chr1_161362301",
+    "gene": "SDHC",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 1.046699829400609,
+        "interpretation": "Minimal expression change (1.05x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.660149097442627,
+        "interpretation": "Accessibility change of 0.660 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

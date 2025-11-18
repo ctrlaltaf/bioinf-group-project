@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "SLC30A10_chr1_219927663",
+    "gene": "SLC30A10",
+    "chromosome": "chr1",
+    "position": 219927663,
+    "ref": "A",
+    "alt": "C",
+    "type": "upstream_gene_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "ATAC, RNA_SEQ",
+    "outputs": [
+      "ATAC",
+      "RNA_SEQ"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 219403375,
+    "end": 220451951,
+    "size": 1048576
+  },
+  "predictions": {
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.0011838548816740513,
+      "max_accessibility_change": 0.1328125,
+      "accessibility_affected": false,
+      "window_size": 100
+    },
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.0033092712983489037,
+      "alternate_mean": 0.004397454671561718,
+      "fold_change": 1.328828698256242,
+      "log2_fold_change": 0.41015513613785,
+      "absolute_difference": 0.0010881833732128143,
+      "effect_direction": "increased",
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:40:30.850640",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "SLC30A10_chr1_219927663",
+    "gene": "SLC30A10",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 1.328828698256242,
+        "interpretation": "Minimal expression change (1.33x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "minimal",
+        "value": 0.1328125,
+        "interpretation": "Minimal accessibility change (0.133) - limited regulatory impact"
+      }
+    ],
+    "classification": "Likely_benign",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

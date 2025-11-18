@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "CHRM3_chr1_239909421",
+    "gene": "CHRM3",
+    "chromosome": "chr1",
+    "position": 239909421,
+    "ref": "G",
+    "alt": "GAA",
+    "type": "3_prime_UTR_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "RNA_SEQ, ATAC",
+    "outputs": [
+      "RNA_SEQ",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 239385133,
+    "end": 240433709,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.03165285661816597,
+      "alternate_mean": 0.02993565984070301,
+      "fold_change": 0.945749074145888,
+      "log2_fold_change": -0.08047063595824601,
+      "absolute_difference": 0.0017171967774629593,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.006606995593756437,
+      "max_accessibility_change": 0.20383453369140625,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:41:23.287076",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "CHRM3_chr1_239909421",
+    "gene": "CHRM3",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.945749074145888,
+        "interpretation": "Minimal expression change (0.95x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.20383453369140625,
+        "interpretation": "Accessibility change of 0.204 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

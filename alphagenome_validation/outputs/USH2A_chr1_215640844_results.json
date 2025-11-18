@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "USH2A_chr1_215640844",
+    "gene": "USH2A",
+    "chromosome": "chr1",
+    "position": 215640844,
+    "ref": "CA",
+    "alt": "C",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 215116556,
+    "end": 216165132,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.026008427143096924,
+      "mean_splice_change": 6.3244360717362724e-06,
+      "local_max_splice_change": 0.002398963086307049,
+      "local_mean_splice_change": 3.832702532235999e-06,
+      "junction_array_shape": [
+        4450,
+        367
+      ],
+      "variant_array_index": 2225,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.0076873404905200005,
+      "max_accessibility_change": 1.8279399871826172,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:39:53.553003",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "USH2A_chr1_215640844",
+    "gene": "USH2A",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 0.002398963086307049,
+        "interpretation": "Minimal splice change (0.002) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 1.8279399871826172,
+        "interpretation": "Accessibility change of 1.828 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

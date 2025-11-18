@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "DBT_chr1_100189353",
+    "gene": "DBT",
+    "chromosome": "chr1",
+    "position": 100189353,
+    "ref": "A",
+    "alt": "T",
+    "type": "3_prime_UTR_variant",
+    "disease": "not provided|Maple syrup urine disease",
+    "clinvar_classification": "Uncertain_significance",
+    "analysis_strategy": "RNA_SEQ, ATAC",
+    "outputs": [
+      "RNA_SEQ",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 99665065,
+    "end": 100713641,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.04473971202969551,
+      "alternate_mean": 0.047066666185855865,
+      "fold_change": 1.0520109328065381,
+      "log2_fold_change": 0.07314969761863543,
+      "absolute_difference": 0.0023269541561603546,
+      "effect_direction": "increased",
+      "window_size": 100
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.001708405907265842,
+      "max_accessibility_change": 0.1015625,
+      "accessibility_affected": false,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:35:06.426092",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "DBT_chr1_100189353",
+    "gene": "DBT",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 1.0520109328065381,
+        "interpretation": "Minimal expression change (1.05x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "minimal",
+        "value": 0.1015625,
+        "interpretation": "Minimal accessibility change (0.102) - limited regulatory impact"
+      }
+    ],
+    "classification": "Likely_benign",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Uncertain_significance",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

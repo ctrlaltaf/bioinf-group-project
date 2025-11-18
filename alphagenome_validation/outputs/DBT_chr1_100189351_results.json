@@ -1,0 +1,73 @@
+{
+  "variant_info": {
+    "name": "DBT_chr1_100189351",
+    "gene": "DBT",
+    "chromosome": "chr1",
+    "position": 100189351,
+    "ref": "TA",
+    "alt": "T",
+    "type": "3_prime_UTR_variant",
+    "disease": "Maple syrup urine disease|not provided",
+    "clinvar_classification": "Conflicting_classifications_of_pathogenicity",
+    "analysis_strategy": "RNA_SEQ, ATAC",
+    "outputs": [
+      "RNA_SEQ",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 99665063,
+    "end": 100713639,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 0.043844494968652725,
+      "alternate_mean": 0.04396659508347511,
+      "fold_change": 1.002784844822815,
+      "log2_fold_change": 0.004012097869864383,
+      "absolute_difference": 0.0001221001148223877,
+      "effect_direction": "increased",
+      "window_size": 100
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.013858471065759659,
+      "max_accessibility_change": 1.6220703125,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:34:45.944074",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "DBT_chr1_100189351",
+    "gene": "DBT",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 1.002784844822815,
+        "interpretation": "Minimal expression change (1.00x) - likely benign"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 1.6220703125,
+        "interpretation": "Accessibility change of 1.622 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Conflicting_classifications_of_pathogenicity",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

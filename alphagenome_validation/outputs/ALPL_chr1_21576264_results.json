@@ -1,0 +1,76 @@
+{
+  "variant_info": {
+    "name": "ALPL_chr1_21576264",
+    "gene": "ALPL",
+    "chromosome": "chr1",
+    "position": 21576264,
+    "ref": "TG",
+    "alt": "T",
+    "type": "intron_variant",
+    "disease": "not provided",
+    "clinvar_classification": "Benign",
+    "analysis_strategy": "SPLICE_JUNCTIONS, ATAC",
+    "outputs": [
+      "SPLICE_JUNCTIONS",
+      "ATAC"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 21051976,
+    "end": 22100552,
+    "size": 1048576
+  },
+  "predictions": {
+    "SPLICE_JUNCTIONS": {
+      "output_type": "SPLICE_JUNCTIONS",
+      "status": "success",
+      "max_splice_change": 0.10107183456420898,
+      "mean_splice_change": 3.956182627007365e-05,
+      "local_max_splice_change": 8.18418338894844e-05,
+      "local_mean_splice_change": 2.436348722767434e-07,
+      "junction_array_shape": [
+        1665,
+        367
+      ],
+      "variant_array_index": 832,
+      "splicing_affected": false
+    },
+    "ATAC": {
+      "output_type": "ATAC",
+      "status": "success",
+      "mean_accessibility_change": 0.010697182267904282,
+      "max_accessibility_change": 0.2811279296875,
+      "accessibility_affected": true,
+      "window_size": 100
+    }
+  },
+  "timestamp": "2025-11-17T22:30:38.636050",
+  "status": "success",
+  "pathogenicity_assessment": {
+    "variant": "ALPL_chr1_21576264",
+    "gene": "ALPL",
+    "evidence": [
+      {
+        "type": "splicing",
+        "effect": "minimal",
+        "value": 8.18418338894844e-05,
+        "interpretation": "Minimal splice change (0.000) near variant - unlikely to affect splicing"
+      },
+      {
+        "type": "chromatin_accessibility",
+        "effect": "moderate",
+        "value": 0.2811279296875,
+        "interpretation": "Accessibility change of 0.281 - may affect regulatory function"
+      }
+    ],
+    "classification": "Uncertain_significance",
+    "confidence": "Low",
+    "clinvar_comparison": {
+      "clinvar_classification": "Benign",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}

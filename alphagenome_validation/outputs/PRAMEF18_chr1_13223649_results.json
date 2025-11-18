@@ -1,0 +1,63 @@
+{
+  "variant_info": {
+    "name": "PRAMEF18_chr1_13223649",
+    "gene": "PRAMEF18",
+    "chromosome": "chr1",
+    "position": 13223649,
+    "ref": "G",
+    "alt": "A",
+    "type": "missense_variant",
+    "disease": "not specified",
+    "clinvar_classification": "Uncertain_significance",
+    "analysis_strategy": "RNA_SEQ, SPLICE_JUNCTIONS",
+    "outputs": [
+      "RNA_SEQ",
+      "SPLICE_JUNCTIONS"
+    ],
+    "interval_size": 1048576
+  },
+  "interval": {
+    "chromosome": "chr1",
+    "start": 12699361,
+    "end": 13747937,
+    "size": 1048576
+  },
+  "predictions": {
+    "RNA_SEQ": {
+      "output_type": "RNA_SEQ",
+      "status": "success",
+      "reference_mean": 5.594406684394926e-05,
+      "alternate_mean": 5.512001735041849e-05,
+      "fold_change": 0.9852701181730429,
+      "log2_fold_change": -0.021408791917650917,
+      "absolute_difference": 8.240494935307652e-07,
+      "effect_direction": "decreased",
+      "window_size": 100
+    },
+    "SPLICE_JUNCTIONS": {
+      "error": "zero-size array to reduction operation maximum which has no identity",
+      "status": "failed"
+    }
+  },
+  "timestamp": "2025-11-17T22:29:55.870313",
+  "status": "partial_failure",
+  "pathogenicity_assessment": {
+    "variant": "PRAMEF18_chr1_13223649",
+    "gene": "PRAMEF18",
+    "evidence": [
+      {
+        "type": "gene_expression",
+        "effect": "minimal",
+        "value": 0.9852701181730429,
+        "interpretation": "Minimal expression change (0.99x) - likely benign"
+      }
+    ],
+    "classification": "Likely_benign",
+    "confidence": "Moderate",
+    "clinvar_comparison": {
+      "clinvar_classification": "Uncertain_significance",
+      "clinvar_votes": "N/A",
+      "agreement": "To be manually assessed"
+    }
+  }
+}
